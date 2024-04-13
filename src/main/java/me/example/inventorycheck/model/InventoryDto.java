@@ -12,9 +12,6 @@ import java.time.Instant;
 @AllArgsConstructor
 @NoArgsConstructor
 public class InventoryDto {
-    private Long workerId;
-    private InventoryStatus status;
-    private Instant dateStarted;
-    private Instant dateCompleted;
-
+    private Long inventoryId;
+    private String boxBarcode;
 }
