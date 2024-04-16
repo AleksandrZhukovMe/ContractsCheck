@@ -10,6 +10,7 @@ import me.example.inventorycheck.model.InventoryDto;
 import me.example.inventorycheck.model.InventorySkuView;
 import me.example.inventorycheck.model.InventoryView;
 import me.example.inventorycheck.model.ParkInventoryBoxToParkingRequest;
+import me.example.inventorycheck.model.TakeBoxForInventoryRequest;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -25,8 +26,8 @@ import java.util.List;
 @RestController
 public class InventoryController {
     @ApiOperation(value = "Взять короб для инвентаризации")
-    @PostMapping("/take-box/{boxBarcode}") // todo 2-4 часа
-    public void takeBoxForInventory(@PathVariable String boxBarcode) {
+    @PostMapping("/take-box") // todo 2-4 часа
+    public void takeBoxForInventory(@RequestBody TakeBoxForInventoryRequest request) {
         // в пикинг контроллере тут возвращается ДТО с UUID короба. Не вижу смысла возвращать
     }
     @ApiOperation(value = "Проверка ячейки")
