@@ -1,4 +1,4 @@
-package me.example.inventorycheck.model;
+package me.example.check.model;
 
 public enum DraftType {
     TO_TAKE,

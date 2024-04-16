@@ -1,4 +1,4 @@
-package me.example.inventorycheck.model;
+package me.example.check.model;
 
 import io.swagger.annotations.ApiParam;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package me.example.inventorycheck.mockmodel;
+package me.example.check.mockmodel;
 
 public enum InventoryStatus {
     IN_PROGRESS,

@@ -1,10 +1,10 @@
-package me.example.inventorycheck.model;
+package me.example.check.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import me.example.inventorycheck.mockmodel.InventoryStatus;
+import me.example.check.mockmodel.InventoryStatus;
 
 import java.time.Instant;
 import java.util.List;

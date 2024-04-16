@@ -1,17 +1,17 @@
-package me.example.inventorycheck.model;
+package me.example.check.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import me.example.inventorycheck.mockmodel.SkuDto;
+import me.example.check.mockmodel.ShortSkuInfo;
 
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class InventoryBoxView {
-    private SkuDto skuDto;
+    private ShortSkuInfo shortSkuInfo;
     private String originalCellKey;
     private int amount;
 }
