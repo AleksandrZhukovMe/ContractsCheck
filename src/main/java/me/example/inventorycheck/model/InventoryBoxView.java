@@ -12,9 +12,6 @@ import me.example.inventorycheck.mockmodel.SkuDto;
 @NoArgsConstructor
 public class InventoryBoxView {
     private SkuDto skuDto;
-
     private String originalCellKey;
-    private String boxBarcode;
     private int amount;
-
 }

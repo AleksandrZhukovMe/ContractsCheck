@@ -12,18 +12,9 @@ import java.util.List;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class CellInventoryDraftResult {
-    private int skuAmount;
-    private String cellBarcode;
-    private List<CellInventoryDraftInfo> draftInfo;
-
-    public class CellInventoryDraftInfo { //отдельный класс
+public class CellInventoryDraftInfo {
         private SkuDto skuInfo;
-
-        private int amountToLeave;
-
+        private int amountToKeep;
         private int amountToWithdraw;
-
         private boolean matchesToActual;
-    }
 }

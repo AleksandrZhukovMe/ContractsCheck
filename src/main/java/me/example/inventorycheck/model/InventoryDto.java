@@ -7,11 +7,13 @@ import lombok.NoArgsConstructor;
 import me.example.inventorycheck.mockmodel.InventoryStatus;
 
 import java.time.Instant;
+import java.util.List;
+
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class InventoryDto {
-    private Long inventoryId;
-    private String boxBarcode;
+    private Long inventoryNumber;
+    private List<String> boxBarcodes;
 }
