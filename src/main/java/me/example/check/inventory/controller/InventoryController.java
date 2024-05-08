@@ -1,15 +1,15 @@
-package me.example.check.controller;
+package me.example.check.inventory.controller;
 
 import io.swagger.annotations.ApiOperation;
-import me.example.check.model.CellInventoryDraft;
-import me.example.check.model.CellInventoryDraftInfo;
-import me.example.check.model.InventoryBoxView;
-import me.example.check.model.InventoryCellView;
-import me.example.check.model.InventoryDto;
-import me.example.check.model.InventorySkuView;
-import me.example.check.model.InventoryView;
-import me.example.check.model.ParkInventoryBoxToParkingRequest;
-import me.example.check.model.TakeBoxForInventoryRequest;
+import me.example.check.inventory.model.CellInventoryDraft;
+import me.example.check.inventory.model.CellInventoryDraftInfo;
+import me.example.check.inventory.model.InventoryBoxView;
+import me.example.check.inventory.model.InventoryCellView;
+import me.example.check.inventory.model.InventoryDto;
+import me.example.check.inventory.model.InventorySkuView;
+import me.example.check.inventory.model.InventoryView;
+import me.example.check.inventory.model.ParkInventoryBoxToParkingRequest;
+import me.example.check.inventory.model.TakeBoxForInventoryRequest;
 import me.example.check.service.AnotherAppService;
 import me.example.check.service.AppService;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,4 +1,4 @@
-package me.example.check.model;
+package me.example.check.inventory.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
